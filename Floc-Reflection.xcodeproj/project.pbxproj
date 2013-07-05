@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4DF06A7E72A199F0099F21 /* SimpleExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFA5ED457C6B1BA98A781 /* SimpleExample.m */; };
+		8D4DF0997C72E87FB73C0A17 /* FLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DF7E8D4245F084C48AF15 /* FLReflection.m */; };
+		8D4DF24CF4BAB2E64929671D /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DF340581D988EAF06D7DF /* Car.m */; };
+		8D4DF646D01B57232B883F2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */; };
+		8D4DF8772BB4793892755D78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF6B7C12988D045A814D8 /* Default.png */; };
+		8D4DF944480CA9863FE914BC /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFD2F0C9A6E4397DCF003 /* Wheel.m */; };
 		8D4DFCB9AC95A2FB081ABFF5 /* FLReflectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */; };
+		8D4DFDDB0EC99052BBDB9D48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DFAAA4848AF4AE5D4FE44 /* Default@2x.png */; };
 		99F9ACE1A0594DF6A4AA961C /* libPods-Floc-ReflectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */; };
 		CBFD7E7417871676001BDF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7317871676001BDF0B /* UIKit.framework */; };
 		CBFD7E7617871676001BDF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7517871676001BDF0B /* Foundation.framework */; };
@@ -15,9 +22,6 @@
 		CBFD7E7E17871676001BDF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFD7E7C17871676001BDF0B /* InfoPlist.strings */; };
 		CBFD7E8017871676001BDF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFD7E7F17871676001BDF0B /* main.m */; };
 		CBFD7E8417871676001BDF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFD7E8317871676001BDF0B /* AppDelegate.m */; };
-		CBFD7E8617871676001BDF0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFD7E8517871676001BDF0B /* Default.png */; };
-		CBFD7E8817871676001BDF0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFD7E8717871676001BDF0B /* Default@2x.png */; };
-		CBFD7E8A17871676001BDF0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFD7E8917871676001BDF0B /* Default-568h@2x.png */; };
 		CBFD7E9217871676001BDF0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E9117871676001BDF0B /* SenTestingKit.framework */; };
 		CBFD7E9317871676001BDF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7317871676001BDF0B /* UIKit.framework */; };
 		CBFD7E9417871676001BDF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7517871676001BDF0B /* Foundation.framework */; };
@@ -36,7 +40,19 @@
 
 /* Begin PBXFileReference section */
 		45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-Floc-ReflectionTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		8D4DF2AA08112BD13EEC9DCE /* FLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLReflection.h; sourceTree = "<group>"; };
+		8D4DF340581D988EAF06D7DF /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8D4DF6B7C12988D045A814D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D4DF7E8D4245F084C48AF15 /* FLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLReflection.m; sourceTree = "<group>"; };
+		8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D4DFA5ED457C6B1BA98A781 /* SimpleExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleExample.m; sourceTree = "<group>"; };
+		8D4DFAAA4848AF4AE5D4FE44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D4DFB181F256B7C09A9872B /* SimpleExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleExample.h; sourceTree = "<group>"; };
+		8D4DFB2938A93E75105D5343 /* Wheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
 		8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLReflectionSpec.m; sourceTree = "<group>"; };
+		8D4DFCD2FAC9342533DC65F9 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		8D4DFCFF9A33071E7BCAC77C /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		8D4DFD2F0C9A6E4397DCF003 /* Wheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
 		C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Floc-ReflectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E7017871676001BDF0B /* Floc-Reflection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floc-Reflection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E7317871676001BDF0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -48,9 +64,6 @@
 		CBFD7E8117871676001BDF0B /* Floc-Reflection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Floc-Reflection-Prefix.pch"; sourceTree = "<group>"; };
 		CBFD7E8217871676001BDF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBFD7E8317871676001BDF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBFD7E8517871676001BDF0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		CBFD7E8717871676001BDF0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		CBFD7E8917871676001BDF0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CBFD7E9017871676001BDF0B /* Floc-ReflectionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floc-ReflectionTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E9117871676001BDF0B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CBFD7E9917871676001BDF0B /* Floc-ReflectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Floc-ReflectionTests-Info.plist"; sourceTree = "<group>"; };
@@ -82,6 +95,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D4DF097548BB19866C7D089 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DF9AD8C946E9BB584116B /* SimpleExample */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		8D4DF646BD763D72D4052B6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DF2AA08112BD13EEC9DCE /* FLReflection.h */,
+				8D4DF7E8D4245F084C48AF15 /* FLReflection.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8D4DF9AD8C946E9BB584116B /* SimpleExample */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DFCD2FAC9342533DC65F9 /* Car.h */,
+				8D4DF340581D988EAF06D7DF /* Car.m */,
+				8D4DFB2938A93E75105D5343 /* Wheel.h */,
+				8D4DFD2F0C9A6E4397DCF003 /* Wheel.m */,
+				8D4DFCFF9A33071E7BCAC77C /* Engine.h */,
+				8D4DFB181F256B7C09A9872B /* SimpleExample.h */,
+				8D4DFA5ED457C6B1BA98A781 /* SimpleExample.m */,
+			);
+			path = SimpleExample;
+			sourceTree = "<group>";
+		};
+		8D4DF9DFD7FE6D413E3A00ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D4DF6B7C12988D045A814D8 /* Default.png */,
+				8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */,
+				8D4DFAAA4848AF4AE5D4FE44 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CBFD7E6717871676001BDF0B = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +144,7 @@
 				CBFD7E7217871676001BDF0B /* Frameworks */,
 				CBFD7E7117871676001BDF0B /* Products */,
 				45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */,
+				8D4DF9DFD7FE6D413E3A00ED /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +175,8 @@
 				CBFD7E8217871676001BDF0B /* AppDelegate.h */,
 				CBFD7E8317871676001BDF0B /* AppDelegate.m */,
 				CBFD7E7A17871676001BDF0B /* Supporting Files */,
+				8D4DF646BD763D72D4052B6C /* Classes */,
+				8D4DF097548BB19866C7D089 /* Examples */,
 			);
 			path = "Floc-Reflection";
 			sourceTree = "<group>";
@@ -131,9 +188,6 @@
 				CBFD7E7C17871676001BDF0B /* InfoPlist.strings */,
 				CBFD7E7F17871676001BDF0B /* main.m */,
 				CBFD7E8117871676001BDF0B /* Floc-Reflection-Prefix.pch */,
-				CBFD7E8517871676001BDF0B /* Default.png */,
-				CBFD7E8717871676001BDF0B /* Default@2x.png */,
-				CBFD7E8917871676001BDF0B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,9 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFD7E7E17871676001BDF0B /* InfoPlist.strings in Resources */,
-				CBFD7E8617871676001BDF0B /* Default.png in Resources */,
-				CBFD7E8817871676001BDF0B /* Default@2x.png in Resources */,
-				CBFD7E8A17871676001BDF0B /* Default-568h@2x.png in Resources */,
+				8D4DF8772BB4793892755D78 /* Default.png in Resources */,
+				8D4DF646D01B57232B883F2E /* Default-568h@2x.png in Resources */,
+				8D4DFDDB0EC99052BBDB9D48 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +353,10 @@
 			files = (
 				CBFD7E8017871676001BDF0B /* main.m in Sources */,
 				CBFD7E8417871676001BDF0B /* AppDelegate.m in Sources */,
+				8D4DF0997C72E87FB73C0A17 /* FLReflection.m in Sources */,
+				8D4DF24CF4BAB2E64929671D /* Car.m in Sources */,
+				8D4DF944480CA9863FE914BC /* Wheel.m in Sources */,
+				8D4DF06A7E72A199F0099F21 /* SimpleExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
