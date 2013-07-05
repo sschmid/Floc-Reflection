@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4DFCB9AC95A2FB081ABFF5 /* FLReflectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */; };
+		99F9ACE1A0594DF6A4AA961C /* libPods-Floc-ReflectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */; };
 		CBFD7E7417871676001BDF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7317871676001BDF0B /* UIKit.framework */; };
 		CBFD7E7617871676001BDF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7517871676001BDF0B /* Foundation.framework */; };
 		CBFD7E7817871676001BDF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7717871676001BDF0B /* CoreGraphics.framework */; };
@@ -20,7 +22,6 @@
 		CBFD7E9317871676001BDF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7317871676001BDF0B /* UIKit.framework */; };
 		CBFD7E9417871676001BDF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7517871676001BDF0B /* Foundation.framework */; };
 		CBFD7E9C17871676001BDF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFD7E9A17871676001BDF0B /* InfoPlist.strings */; };
-		CBFD7E9F17871676001BDF0B /* Floc_ReflectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFD7E9E17871676001BDF0B /* Floc_ReflectionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-Floc-ReflectionTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLReflectionSpec.m; sourceTree = "<group>"; };
+		C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Floc-ReflectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E7017871676001BDF0B /* Floc-Reflection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floc-Reflection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E7317871676001BDF0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBFD7E7517871676001BDF0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +55,6 @@
 		CBFD7E9117871676001BDF0B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CBFD7E9917871676001BDF0B /* Floc-ReflectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Floc-ReflectionTests-Info.plist"; sourceTree = "<group>"; };
 		CBFD7E9B17871676001BDF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBFD7E9D17871676001BDF0B /* Floc_ReflectionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floc_ReflectionTests.h; sourceTree = "<group>"; };
-		CBFD7E9E17871676001BDF0B /* Floc_ReflectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Floc_ReflectionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				CBFD7E9217871676001BDF0B /* SenTestingKit.framework in Frameworks */,
 				CBFD7E9317871676001BDF0B /* UIKit.framework in Frameworks */,
 				CBFD7E9417871676001BDF0B /* Foundation.framework in Frameworks */,
+				99F9ACE1A0594DF6A4AA961C /* libPods-Floc-ReflectionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 				CBFD7E9717871676001BDF0B /* Floc-ReflectionTests */,
 				CBFD7E7217871676001BDF0B /* Frameworks */,
 				CBFD7E7117871676001BDF0B /* Products */,
+				45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +109,7 @@
 				CBFD7E7517871676001BDF0B /* Foundation.framework */,
 				CBFD7E7717871676001BDF0B /* CoreGraphics.framework */,
 				CBFD7E9117871676001BDF0B /* SenTestingKit.framework */,
+				C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,9 +141,8 @@
 		CBFD7E9717871676001BDF0B /* Floc-ReflectionTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBFD7E9D17871676001BDF0B /* Floc_ReflectionTests.h */,
-				CBFD7E9E17871676001BDF0B /* Floc_ReflectionTests.m */,
 				CBFD7E9817871676001BDF0B /* Supporting Files */,
+				8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */,
 			);
 			path = "Floc-ReflectionTests";
 			sourceTree = "<group>";
@@ -176,10 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBFD7EA517871676001BDF0B /* Build configuration list for PBXNativeTarget "Floc-ReflectionTests" */;
 			buildPhases = (
+				75D2A355A4634784B1E02B8F /* Check Pods Manifest.lock */,
 				CBFD7E8B17871676001BDF0B /* Sources */,
 				CBFD7E8C17871676001BDF0B /* Frameworks */,
 				CBFD7E8D17871676001BDF0B /* Resources */,
 				CBFD7E8E17871676001BDF0B /* ShellScript */,
+				A0DC2BB9F704479B8F545799 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +247,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		75D2A355A4634784B1E02B8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DC2BB9F704479B8F545799 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Floc-ReflectionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CBFD7E8E17871676001BDF0B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFD7E9F17871676001BDF0B /* Floc_ReflectionTests.m in Sources */,
+				8D4DFCB9AC95A2FB081ABFF5 /* FLReflectionSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +422,11 @@
 		};
 		CBFD7EA617871676001BDF0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Floc-Reflection.app/Floc-Reflection";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -403,9 +441,11 @@
 		};
 		CBFD7EA717871676001BDF0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Floc-Reflection.app/Floc-Reflection";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -437,6 +477,7 @@
 				CBFD7EA417871676001BDF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFD7EA517871676001BDF0B /* Build configuration list for PBXNativeTarget "Floc-ReflectionTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +486,7 @@
 				CBFD7EA717871676001BDF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
