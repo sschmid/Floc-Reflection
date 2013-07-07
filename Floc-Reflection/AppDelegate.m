@@ -10,10 +10,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor blackColor];
+    [self showIcon];
 
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)showIcon {
+    UIImage *image = [UIImage imageNamed:@"Floc-Reflection-Logo.png"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    imageView.center = self.window.center;
+    [self.window addSubview:imageView];
 }
 
 @end

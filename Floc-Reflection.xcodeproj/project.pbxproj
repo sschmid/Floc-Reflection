@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		8D4DF06A7E72A199F0099F21 /* SimpleExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFA5ED457C6B1BA98A781 /* SimpleExample.m */; };
 		8D4DF0997C72E87FB73C0A17 /* FLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DF7E8D4245F084C48AF15 /* FLReflection.m */; };
+		8D4DF1C0B8EE1445064F5E35 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF5F6E6843A72DFF5D530 /* Icon-114.png */; };
 		8D4DF24CF4BAB2E64929671D /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DF340581D988EAF06D7DF /* Car.m */; };
+		8D4DF5D44BE38977ADE67014 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DFEC53346CAEEFB1918F4 /* Icon-144.png */; };
 		8D4DF646D01B57232B883F2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */; };
+		8D4DF7A63E267FA75B549183 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF2BC398029F2F74320EC /* Icon-57.png */; };
 		8D4DF8772BB4793892755D78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF6B7C12988D045A814D8 /* Default.png */; };
 		8D4DF944480CA9863FE914BC /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFD2F0C9A6E4397DCF003 /* Wheel.m */; };
+		8D4DF9B4C07B992FD539AF8C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DF62B7B6BA3B70776F0DF /* Icon-72.png */; };
 		8D4DFCB9AC95A2FB081ABFF5 /* FLReflectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DFC0EE52F2D1C20665843 /* FLReflectionSpec.m */; };
 		8D4DFDDB0EC99052BBDB9D48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DFAAA4848AF4AE5D4FE44 /* Default@2x.png */; };
 		99F9ACE1A0594DF6A4AA961C /* libPods-Floc-ReflectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */; };
+		CBD617FC1789FE8B002DB3EB /* Floc-Reflection-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD617F71789FE8B002DB3EB /* Floc-Reflection-Logo.png */; };
 		CBFD7E7417871676001BDF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7317871676001BDF0B /* UIKit.framework */; };
 		CBFD7E7617871676001BDF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7517871676001BDF0B /* Foundation.framework */; };
 		CBFD7E7817871676001BDF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD7E7717871676001BDF0B /* CoreGraphics.framework */; };
@@ -41,7 +46,10 @@
 /* Begin PBXFileReference section */
 		45F26C6444094199AD7F84C4 /* Pods/Pods-Floc-ReflectionTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-Floc-ReflectionTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		8D4DF2AA08112BD13EEC9DCE /* FLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLReflection.h; sourceTree = "<group>"; };
+		8D4DF2BC398029F2F74320EC /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
 		8D4DF340581D988EAF06D7DF /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8D4DF5F6E6843A72DFF5D530 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		8D4DF62B7B6BA3B70776F0DF /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		8D4DF6B7C12988D045A814D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8D4DF7E8D4245F084C48AF15 /* FLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLReflection.m; sourceTree = "<group>"; };
 		8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -53,7 +61,9 @@
 		8D4DFCD2FAC9342533DC65F9 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		8D4DFCFF9A33071E7BCAC77C /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
 		8D4DFD2F0C9A6E4397DCF003 /* Wheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
+		8D4DFEC53346CAEEFB1918F4 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
 		C264AE2546DF4D0E9BB981E9 /* libPods-Floc-ReflectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Floc-ReflectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD617F71789FE8B002DB3EB /* Floc-Reflection-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Floc-Reflection-Logo.png"; sourceTree = "<group>"; };
 		CBFD7E7017871676001BDF0B /* Floc-Reflection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floc-Reflection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD7E7317871676001BDF0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBFD7E7517871676001BDF0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,9 +139,14 @@
 		8D4DF9DFD7FE6D413E3A00ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8D4DF6B7C12988D045A814D8 /* Default.png */,
 				8D4DF96CBD39D78E65AFD3B3 /* Default-568h@2x.png */,
+				8D4DF6B7C12988D045A814D8 /* Default.png */,
 				8D4DFAAA4848AF4AE5D4FE44 /* Default@2x.png */,
+				CBD617F71789FE8B002DB3EB /* Floc-Reflection-Logo.png */,
+				8D4DF62B7B6BA3B70776F0DF /* Icon-72.png */,
+				8D4DFEC53346CAEEFB1918F4 /* Icon-144.png */,
+				8D4DF5F6E6843A72DFF5D530 /* Icon-114.png */,
+				8D4DF2BC398029F2F74320EC /* Icon-57.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +302,11 @@
 				8D4DF8772BB4793892755D78 /* Default.png in Resources */,
 				8D4DF646D01B57232B883F2E /* Default-568h@2x.png in Resources */,
 				8D4DFDDB0EC99052BBDB9D48 /* Default@2x.png in Resources */,
+				CBD617FC1789FE8B002DB3EB /* Floc-Reflection-Logo.png in Resources */,
+				8D4DF9B4C07B992FD539AF8C /* Icon-72.png in Resources */,
+				8D4DF5D44BE38977ADE67014 /* Icon-144.png in Resources */,
+				8D4DF1C0B8EE1445064F5E35 /* Icon-114.png in Resources */,
+				8D4DF7A63E267FA75B549183 /* Icon-57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Floc-Reflection/Floc-Reflection-Prefix.pch";
 				INFOPLIST_FILE = "Floc-Reflection/Floc-Reflection-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,6 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Floc-Reflection/Floc-Reflection-Prefix.pch";
 				INFOPLIST_FILE = "Floc-Reflection/Floc-Reflection-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -491,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Floc-Reflection/Floc-Reflection-Prefix.pch";
 				INFOPLIST_FILE = "Floc-ReflectionTests/Floc-ReflectionTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -510,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Floc-Reflection/Floc-Reflection-Prefix.pch";
 				INFOPLIST_FILE = "Floc-ReflectionTests/Floc-ReflectionTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
