@@ -1,6 +1,5 @@
 # Floc Reflection
 ![Floc Reflection Logo](http://sschmid.com/Dev/iOS/Libs/Floc-Reflection/Floc-Reflection-128.png)
-[![Build Status](https://travis-ci.org/sschmid/Floc-Reflection.png?branch=master)](https://travis-ci.org/sschmid/Floc-Reflection)
 
 ## Description
 Floc Reflection is a set of class methods to easily inspect objects in Objective-C.
